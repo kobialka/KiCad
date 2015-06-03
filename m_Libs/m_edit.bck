@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: śro, 3 cze 2015, 01:06:43
+EESchema-DOCLIB  Version 2.0  Date: śro, 3 cze 2015, 22:13:41
 #
 $CMP AD5280
 D ANALOG DEVICES/TSSOP14
@@ -116,6 +116,10 @@ $ENDCMP
 #
 $CMP EL7242C
 D Translateur TTL->VMOS. Double driver VMOS
+$ENDCMP
+#
+$CMP FT232BL
+D FTDI USB UART Interface
 $ENDCMP
 #
 $CMP FT232RL
