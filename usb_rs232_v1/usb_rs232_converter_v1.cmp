@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = śro, 3 cze 2015, 02:46:31
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = śro, 3 cze 2015, 19:14:31
 
 BeginCmp
 TimeStamp = /556E4DBF;
@@ -15,9 +15,9 @@ IdModule  = USB_MINI_B;
 EndCmp
 
 BeginCmp
-TimeStamp = /556E290F;
+TimeStamp = /556F35D9;
 Reference = I1;
-ValeurCmp = FT232BM;
+ValeurCmp = FT232BL;
 IdModule  = TQFP32;
 EndCmp
 
