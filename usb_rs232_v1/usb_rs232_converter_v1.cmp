@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = śro, 3 cze 2015, 02:46:31
+
+BeginCmp
+TimeStamp = /556E4DBF;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = USB_MINI_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E4DCC;
+Reference = CON2;
+ValeurCmp = USB-MICRO-B;
+IdModule  = USB_MINI_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E290F;
+Reference = I1;
+ValeurCmp = FT232BM;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E2997;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = DB9MC;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E29A6;
+Reference = J2;
+ValeurCmp = DB9;
+IdModule  = DB9MC;
+EndCmp
+
+EndListe
