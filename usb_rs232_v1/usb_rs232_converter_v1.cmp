@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = wto, 9 cze 2015, 22:53:24
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = śro, 10 cze 2015, 21:35:47
 
 BeginCmp
 TimeStamp = /55704B4A;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /55704B25;
 Reference = C4;
 ValeurCmp = 100n;
-IdModule  = SM0603_Capa;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -71,31 +71,17 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /557040A2;
-Reference = COM1;
-ValeurCmp = COM LEFT COM;
-IdModule  = SIL-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /557112C0;
-Reference = COM2;
-ValeurCmp = COM RIGHT COM;
-IdModule  = SIL-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /557112CD;
-Reference = COM3;
-ValeurCmp = COM RIGHT FTDI;
-IdModule  = SIL-8;
-EndCmp
-
-BeginCmp
 TimeStamp = /55773453;
 Reference = CON1;
 ValeurCmp = USB-micro-B;
 IdModule  = usb-micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /55786AE9;
+Reference = CON2;
+ValeurCmp = USB-mini-B;
+IdModule  = usb-mini-B-2;
 EndCmp
 
 BeginCmp
@@ -169,6 +155,13 @@ IdModule  = LED-3MM-SMD;
 EndCmp
 
 BeginCmp
+TimeStamp = /557874D2;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = SM1812;
+EndCmp
+
+BeginCmp
 TimeStamp = /55708B93;
 Reference = IC1;
 ValeurCmp = MAX3243;
@@ -204,10 +197,31 @@ IdModule  = SIL-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /557112A2;
+TimeStamp = /557112CD;
 Reference = J4;
+ValeurCmp = COM RIGHT FTDI;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /557112A2;
+Reference = J5;
 ValeurCmp = UART;
-IdModule  = SIL-4-SMD;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /557040A2;
+Reference = J6;
+ValeurCmp = COM LEFT COM;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /557112C0;
+Reference = J7;
+ValeurCmp = COM RIGHT COM;
+IdModule  = SIL-8;
 EndCmp
 
 BeginCmp
@@ -262,6 +276,34 @@ EndCmp
 BeginCmp
 TimeStamp = /5577A9E3;
 Reference = R7;
+ValeurCmp = 0R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5578913F;
+Reference = R8;
+ValeurCmp = 0R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55789B7D;
+Reference = R9;
+ValeurCmp = 0R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5578A021;
+Reference = R10;
+ValeurCmp = 0R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5578A92A;
+Reference = R11;
 ValeurCmp = 0R;
 IdModule  = SM0603;
 EndCmp
