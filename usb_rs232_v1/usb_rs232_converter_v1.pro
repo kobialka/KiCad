@@ -1,6 +1,6 @@
-update=wto, 9 cze 2015, 23:00:08
+update=nie, 28 cze 2015, 16:31:28
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -48,14 +48,28 @@ LibName30=valves
 LibName31=/home/mike/Workspace/KiCad/m_Libs/m_edit
 LibName32=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-hdrs40
 LibName33=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-headers-jp
+LibName34=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-usb
+LibName35=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-usb-2
+LibName36=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-usb-3
+LibName37=/home/mike/Workspace/Kicad net LIBS/converted from eagle/ftdi
+LibName38=/home/mike/Workspace/Kicad net LIBS/converted from eagle/ftdi2
+LibName39=/home/mike/Workspace/Kicad net LIBS/converted from eagle/ftdi3
+LibName40=/home/mike/Workspace/Kicad net LIBS/converted from eagle/ftdi4
+LibName41=/home/mike/Workspace/Kicad net LIBS/converted from eagle/ftdichip
+LibName42=/home/mike/Workspace/Kicad net LIBS/converted from eagle/ftdichip-1
+LibName43=/home/mike/Workspace/Kicad net LIBS/converted from eagle/ftdichip-2
+LibName44=/home/mike/Workspace/Kicad net LIBS/converted from eagle/ftdichip-3
+LibName45=/home/mike/Workspace/Kicad net LIBS/converted from eagle/microchip
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=usb_rs232_converter_v1.net
 UseCmpFile=1
-PadDrill="    0,000000"
-PadDrillOvalY="    0,000000"
-PadSizeH="    3,700000"
-PadSizeV="    0,497840"
+PadDrill="    1,000000"
+PadDrillOvalY="    1,000000"
+PadSizeH="    1,550000"
+PadSizeV="    1,550000"
 PcbTextSizeV="    1,000000"
 PcbTextSizeH="    1,000000"
 PcbTextThickness="    0,300000"
@@ -89,5 +103,3 @@ LibName17=m_lib_footprints
 LibName18=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-hdrs40
 LibName19=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-headers-jp
 LibName20=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-usb
-[general]
-version=1

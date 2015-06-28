@@ -1,0 +1,112 @@
+eeschema (2013-jul-07)-stable  >> Creation date: pią, 12 cze 2015, 20:18:43
+#Cmp ( order = Reference )
+| C2         100n        
+| C3         10u         
+| C4         100n        
+| C5         10u         
+| C7         47n         
+| C8         100n        
+| C9         100n        
+| C10        47n         
+| C11        47n         
+| C12        33n         
+| CON1       USB-micro-B 
+| CON2       USB-mini-B  
+| D1         RED         
+| D2         GREEN       
+| D11        RED         
+| D12        GREEN       
+| D13        YELLOW      
+| D14        YELLOW      
+| D15        YELLOW      
+| D16        YELLOW      
+| D17        YELLOW      
+| D18        YELLOW      
+| F1         FUSE        
+| IC1        MAX3243     
+| IC2        FT232BL     
+| J1         COM LEFT    
+| J2         COM RIGHT   
+| J3         FTDI        
+| J4         COM RIGHT FTDI
+| J5         UART        
+| J6         COM LEFT COM
+| J7         COM RIGHT COM
+| L1         15uH        
+| R1         470R        
+| R2         27R         
+| R3         27R         
+| R4         1k5         
+| R5         470R        
+| R6         470R        
+| R7         0R          
+| R8         0R          
+| R9         0R          
+| R10        0R          
+| R11        0R          
+| R15        470R        
+| R16        470R        
+| R17        470R        
+| R18        470R        
+| R19        470R        
+| R20        470R        
+| R21        470R        
+| R22        470R        
+#End Cmp
+
+#Cmp ( order = Value )
+| 33n          C12       
+| 47n          C7        
+| 47n          C10       
+| 47n          C11       
+| 100n         C2        
+| 100n         C4        
+| 100n         C8        
+| 100n         C9        
+| 10u          C3        
+| 10u          C5        
+| USB-micro-B  CON1      
+| USB-mini-B   CON2      
+| RED          D1        
+| GREEN        D2        
+| RED          D11       
+| GREEN        D12       
+| YELLOW       D13       
+| YELLOW       D14       
+| YELLOW       D15       
+| YELLOW       D16       
+| YELLOW       D17       
+| YELLOW       D18       
+| FUSE         F1        
+| MAX3243      IC1       
+| FT232BL      IC2       
+| COM LEFT     J1        
+| COM RIGHT    J2        
+| UART         J5        
+| FTDI         J3        
+| COM RIGHT FTDI J4        
+| COM LEFT COM J6        
+| COM RIGHT COM J7        
+| 15uH         L1        
+| 0R           R7        
+| 0R           R8        
+| 0R           R9        
+| 0R           R10       
+| 0R           R11       
+| 27R          R2        
+| 27R          R3        
+| 470R         R1        
+| 470R         R5        
+| 470R         R6        
+| 470R         R15       
+| 470R         R16       
+| 470R         R17       
+| 470R         R18       
+| 470R         R19       
+| 470R         R20       
+| 470R         R21       
+| 470R         R22       
+| 1k5          R4        
+#End Cmp
+
+#End List
