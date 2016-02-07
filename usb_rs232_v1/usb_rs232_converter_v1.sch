@@ -43,14 +43,13 @@ LIBS:ftdichip
 LIBS:ftdichip-1
 LIBS:ftdichip-2
 LIBS:ftdichip-3
-LIBS:usb_rs232_converter_v1-cache
 EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 jun 2015"
+Date "7 feb 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -939,17 +938,6 @@ F 3 "" H 3300 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MC78L05AACP VR1
-U 1 1 558DD6B1
-P 6800 1050
-F 0 "VR1" H 6600 1250 40  0000 C CNN
-F 1 "MC78L33" H 6800 1250 40  0000 L CNN
-F 2 "TO-92" H 6800 1150 30  0000 C CIN
-F 3 "" H 6800 1050 60  0000 C CNN
-	1    6800 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C7
 U 1 1 558DD6C3
 P 7350 1250
@@ -1243,13 +1231,9 @@ Wire Wire Line
 	5650 5550 5650 5400
 Connection ~ 5500 5550
 Wire Wire Line
-	5500 5400 5500 5550
+	5500 5400 5500 5650
 Wire Wire Line
-	5500 5550 5500 5650
-Wire Wire Line
-	5350 5550 5500 5550
-Wire Wire Line
-	5500 5550 5650 5550
+	5350 5550 5650 5550
 Wire Wire Line
 	5350 5400 5350 5550
 Wire Wire Line
@@ -1312,9 +1296,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 1900 10050 1900
 Wire Wire Line
-	9750 1800 9750 1900
-Wire Wire Line
-	9750 1900 9750 2050
+	9750 1800 9750 2050
 Wire Wire Line
 	1750 3400 1900 3400
 Wire Wire Line
@@ -1327,25 +1309,17 @@ Connection ~ 5250 1000
 Wire Wire Line
 	5250 1000 5250 1200
 Wire Wire Line
-	5250 1700 5250 1800
+	5250 1700 5250 2200
 Wire Wire Line
-	5250 1800 5250 2200
-Wire Wire Line
-	4150 2700 4300 2700
-Wire Wire Line
-	4300 2700 4400 2700
+	4150 2700 4400 2700
 Wire Wire Line
 	3650 3150 4400 3150
 Wire Wire Line
-	1750 3100 2300 3100
-Wire Wire Line
-	2300 3100 2800 3100
+	1750 3100 2800 3100
 Wire Wire Line
 	3650 2950 4400 2950
 Wire Wire Line
-	1750 2950 2200 2950
-Wire Wire Line
-	2200 2950 3150 2950
+	1750 2950 3150 2950
 Wire Wire Line
 	7500 9200 7850 9200
 Wire Wire Line
@@ -1397,21 +1371,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 9300 7500 9500
 Wire Wire Line
-	12000 7300 12000 7550
-Wire Wire Line
-	12000 7550 12000 7800
-Wire Wire Line
-	12000 7800 12000 8050
-Wire Wire Line
-	12000 8050 12000 8350
-Wire Wire Line
-	12000 8350 12000 8650
-Wire Wire Line
-	12000 8650 12000 8950
-Wire Wire Line
-	12000 8950 12000 9250
-Wire Wire Line
-	12000 9250 12000 9550
+	12000 7300 12000 9550
 Wire Wire Line
 	12000 7300 12200 7300
 Wire Wire Line
@@ -1520,15 +1480,9 @@ Wire Wire Line
 Wire Wire Line
 	6200 9200 6150 9200
 Wire Wire Line
-	1750 4800 1900 4800
+	1900 4800 1750 4800
 Wire Wire Line
-	1900 3400 1900 3800
-Wire Wire Line
-	1900 3800 1900 4800
-Wire Wire Line
-	1900 4800 1900 5100
-Wire Wire Line
-	1900 5100 1900 5300
+	1900 3400 1900 5300
 Wire Wire Line
 	1750 4350 2200 4350
 Wire Wire Line
@@ -1540,9 +1494,7 @@ Wire Wire Line
 	2300 4500 2300 3100
 Connection ~ 2300 3100
 Wire Wire Line
-	1750 4200 2550 4200
-Wire Wire Line
-	2550 4200 2950 4200
+	1750 4200 2950 4200
 Wire Wire Line
 	4950 2250 4950 2350
 Wire Wire Line
@@ -1552,26 +1504,12 @@ Wire Wire Line
 Connection ~ 5250 1800
 Connection ~ 4500 1000
 Wire Wire Line
-	4200 1000 4500 1000
-Wire Wire Line
-	4500 1000 4950 1000
-Wire Wire Line
-	4950 1000 5250 1000
-Wire Wire Line
-	5250 1000 5550 1000
-Wire Wire Line
-	5550 1000 6050 1000
-Wire Wire Line
-	6050 1000 6300 1000
-Wire Wire Line
-	6300 1000 6400 1000
+	4200 1000 6400 1000
 Wire Wire Line
 	4950 1050 4950 1000
 Connection ~ 4950 1000
 Wire Wire Line
-	2550 2800 2550 4200
-Wire Wire Line
-	2550 4200 2550 4350
+	2550 2800 2550 4350
 Wire Wire Line
 	2950 4200 2950 2400
 Connection ~ 2550 4200
@@ -1584,18 +1522,14 @@ Wire Wire Line
 Wire Wire Line
 	4400 4750 4400 5100
 Wire Wire Line
-	4000 4150 4050 4150
-Wire Wire Line
-	4050 4150 4400 4150
+	4000 4150 4400 4150
 Wire Wire Line
 	4050 4400 4050 4150
 Connection ~ 4050 4150
 Wire Wire Line
 	4400 3950 3300 3950
 Wire Wire Line
-	3300 3950 3300 4150
-Wire Wire Line
-	3300 4150 3300 4350
+	3300 3950 3300 4350
 Wire Wire Line
 	3400 4150 3300 4150
 Connection ~ 3300 4150
@@ -1614,30 +1548,20 @@ Wire Wire Line
 Wire Wire Line
 	8150 4250 8050 4250
 Wire Wire Line
-	8150 3900 8150 4050
-Wire Wire Line
-	8150 4050 8150 4250
+	8150 3900 8150 4250
 Wire Wire Line
 	8050 4050 8150 4050
 Connection ~ 8150 4050
 Wire Wire Line
-	7200 1000 7350 1000
+	7200 1000 7550 1000
 Wire Wire Line
-	7350 1000 7550 1000
-Wire Wire Line
-	7350 800  7350 1000
-Wire Wire Line
-	7350 1000 7350 1050
+	7350 800  7350 1050
 Wire Wire Line
 	7350 1450 7350 1550
 Wire Wire Line
 	6800 1300 6800 1550
 Wire Wire Line
-	5550 800  5550 1000
-Wire Wire Line
-	5550 1000 5550 1800
-Wire Wire Line
-	5550 1800 5550 2200
+	5550 800  5550 2200
 Connection ~ 5550 1000
 Wire Wire Line
 	5400 2200 5400 1800
@@ -1676,9 +1600,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 4750 2550 5100
 Wire Wire Line
-	12950 1650 12950 1900
-Wire Wire Line
-	12950 1900 12950 1950
+	12950 1650 12950 1950
 Connection ~ 12950 1900
 Wire Wire Line
 	12900 3100 12900 3250
@@ -1687,9 +1609,7 @@ Wire Wire Line
 Wire Wire Line
 	550  4200 650  4200
 Wire Wire Line
-	2950 850  2950 1000
-Wire Wire Line
-	2950 1000 2950 1900
+	2950 850  2950 1900
 Wire Wire Line
 	2950 1000 3700 1000
 Connection ~ 2950 1000
@@ -1701,9 +1621,7 @@ Wire Wire Line
 Connection ~ 1900 3800
 Connection ~ 550  3800
 Wire Wire Line
-	550  3250 550  3800
-Wire Wire Line
-	550  3800 550  4200
+	550  3250 550  4200
 Wire Wire Line
 	2550 5100 1900 5100
 Connection ~ 1900 5100
@@ -1768,4 +1686,17 @@ Wire Wire Line
 Connection ~ 6050 1000
 Wire Wire Line
 	6050 1450 6050 1550
+$Comp
+L MC78L33 VR1
+U 1 1 56B753B5
+P 6800 1050
+F 0 "VR1" H 6600 1250 40  0000 C CNN
+F 1 "MC78L33" H 6800 1250 40  0000 L CNN
+F 2 "" H 7100 700 30  0000 C CIN
+F 3 "" H 6800 1050 60  0000 C CNN
+	1    6800 1050
+	1    0    0    -1  
+$EndComp
+Text Notes 7000 2050 0    60   ~ 0
+Można dodać na wyjścia zasilające:\n- diody zenera 3.6, 5.5\n- kondensatorki 100n\n- ewentualnie ferryt
 $EndSCHEMATC

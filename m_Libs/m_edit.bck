@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: sob, 27 cze 2015, 01:33:54
+EESchema-DOCLIB  Version 2.0  Date: nie, 7 lut 2016, 15:10:39
 #
 $CMP AD5280
 D ANALOG DEVICES/TSSOP14
@@ -184,6 +184,12 @@ $ENDCMP
 $CMP MAX232
 D Driver de Ligne RS232
 K RS232
+$ENDCMP
+#
+$CMP MC78M05CDT
+D MC78M05CDT, Positive 0.5A 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
+K Voltage Regulator 0.5A Positive
+F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
 $ENDCMP
 #
 $CMP MCP2551-I/P
