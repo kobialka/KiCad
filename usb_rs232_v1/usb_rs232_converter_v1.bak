@@ -1697,4 +1697,6 @@ F 3 "" H 6800 1050 60  0000 C CNN
 	1    6800 1050
 	1    0    0    -1  
 $EndComp
+Text Notes 7000 2050 0    60   ~ 0
+Można dodać na wyjścia zasilające:\n- diody zenera 3.6, 5.5\n- kondensatorki 100n\n- ewentualnie ferryt
 $EndSCHEMATC

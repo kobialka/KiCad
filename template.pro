@@ -1,5 +1,5 @@
-update=nie, 28 cze 2015, 16:31:55
-last_client=pcbnew
+update=sob, 20 sie 2016, 19:37:21
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=usb_rs232_converter_v1.net
@@ -41,3 +41,5 @@ LibName17=m_lib_footprints
 LibName18=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-hdrs40
 LibName19=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-headers-jp
 LibName20=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-usb
+[general]
+version=1
