@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  sob, 17 wrz 2016, 00:00:42
+PCBNEW-LibModule-V1  nie, 9 paź 2016, 17:51:33
 # encoding utf-8
 Units mm
 $INDEX
 DB9MC-v2
 LED-3MM-SMD
 LED-3MM_bh
+LED_CUBE_3x3x3_22mm
 SIL-4-SMD
 SIL-4_bigger_holes
 SIL-5_bigger_holes
@@ -224,6 +225,99 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE LED-3MM_bh
+$MODULE LED_CUBE_3x3x3_22mm
+Po 0 0 0 15 57FA6783 00000000 ~~
+Li LED_CUBE_3x3x3_22mm
+Sc 0
+AR 
+Op 0 0 0
+T0 10.5 4 1 1 0 0.15 N V 21 N "LED_CUBE_3x3x3_22mm"
+T1 3.5 2.5 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22 0
+$EndPAD
+$PAD
+Sh "3" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 44 0
+$EndPAD
+$PAD
+Sh "4" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -22
+$EndPAD
+$PAD
+Sh "5" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22 -22
+$EndPAD
+$PAD
+Sh "6" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 44 -22
+$EndPAD
+$PAD
+Sh "7" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -44
+$EndPAD
+$PAD
+Sh "8" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22 -44
+$EndPAD
+$PAD
+Sh "9" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 44 -44
+$EndPAD
+$PAD
+Sh "12" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 44 -41
+$EndPAD
+$PAD
+Sh "11" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 44 -19
+$EndPAD
+$PAD
+Sh "10" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 44 3
+$EndPAD
+$EndMODULE LED_CUBE_3x3x3_22mm
 $MODULE SIL-4-SMD
 Po 0 0 0 15 55737BD8 00000000 ~~
 Li SIL-4-SMD

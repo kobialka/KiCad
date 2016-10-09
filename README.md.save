@@ -1,0 +1,6 @@
+#KiCad projects
+
+1. usb_rs232_v1:
+	- 3 w 1: conwerter USB <=> UART, USB <=> RS232, pinoutbox dla RS232.
+	- Układy FT232B w zewnętrznego rezonatora 6MHz. Stosować FT232R.
+
