@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  pon, 28 lis 2016, 04:47:26
+PCBNEW-LibModule-V1  pią, 2 gru 2016, 03:38:41
 # encoding utf-8
 Units mm
 $INDEX
@@ -1644,7 +1644,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SSOP24-1
 $MODULE VIA
-Po 0 0 0 15 583BA379 00000000 ~~
+Po 0 0 0 15 5840DEAF 00000000 ~~
 Li VIA
 Sc 0
 AR 
@@ -1654,7 +1654,7 @@ T1 -1 1 1 1 0 0.15 N I 21 N ""
 $PAD
 Sh "1" C 0.9 0.9 0 0 0
 Dr 0.6 0 0
-At STD N 00E0FFFF
+At STD N 0000FFFF
 Ne 1 "GND"
 Po 0 0
 $EndPAD
