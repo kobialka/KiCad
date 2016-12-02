@@ -1,6 +1,6 @@
-update=śro, 14 wrz 2016, 19:40:32
+update=wto, 22 lis 2016, 19:54:06
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -47,8 +47,6 @@ LibName17=m_lib_footprints
 LibName18=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-hdrs40
 LibName19=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-headers-jp
 LibName20=/home/mike/Workspace/Kicad net LIBS/converted from eagle/con-usb
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/home/mike/Workspace/KiCad/m_Libs
@@ -104,3 +102,5 @@ LibName43=/home/mike/Workspace/Kicad net LIBS/converted from eagle/ftdichip-2
 LibName44=/home/mike/Workspace/Kicad net LIBS/converted from eagle/ftdichip-3
 LibName45=/home/mike/Workspace/Kicad net LIBS/converted from eagle/microchip
 LibName46=m_edit
+[general]
+version=1

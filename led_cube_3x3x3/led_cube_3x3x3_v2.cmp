@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = nie, 13 lis 2016, 20:06:17
+Cmp-Mod V01 Created by PcbNew date = pią, 2 gru 2016, 02:44:48
 
 BeginCmp
 TimeStamp = /57E45F6C;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -25,14 +25,14 @@ BeginCmp
 TimeStamp = /57E44D80;
 Reference = C7;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /57E48CE1;
 Reference = C8;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -67,7 +67,7 @@ BeginCmp
 TimeStamp = /57E45498;
 Reference = C13;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /57FA78E0;
 Reference = D1;
 ValeurCmp = LED_CUBE_3X3X3;
-IdModule  = LED_CUBE_3x3x3_22mm;
+IdModule  = LED_CUBE_3x3x3_22mm_SMD;
 EndCmp
 
 BeginCmp
@@ -95,7 +95,7 @@ BeginCmp
 TimeStamp = /57DC70FF;
 Reference = IC1;
 ValeurCmp = ATMEGA8A-P;
-IdModule  = DIP-28__300;
+IdModule  = DIP-28__300_SMD;
 EndCmp
 
 BeginCmp
@@ -164,6 +164,34 @@ EndCmp
 BeginCmp
 TimeStamp = /581657E9;
 Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /583B9105;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /583B90FF;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /583B90F9;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /583B90F3;
+Reference = P10;
 ValeurCmp = CONN_1;
 IdModule  = PINTST;
 EndCmp
@@ -432,13 +460,6 @@ TimeStamp = /57F6DD2B;
 Reference = R34;
 ValeurCmp = 2k;
 IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /57FBD794;
-Reference = R35;
-ValeurCmp = 0R;
-IdModule  = SM1206;
 EndCmp
 
 BeginCmp

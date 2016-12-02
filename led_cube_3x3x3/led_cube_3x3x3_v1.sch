@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "30 oct 2016"
+Date "4 nov 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1074,19 +1074,19 @@ F 3 "" H 6200 9450 60  0000 C CNN
 	1    6200 9450
 	1    0    0    1   
 $EndComp
-Text GLabel 5650 9450 0    51   Input ~ 0
+Text GLabel 5650 9550 0    51   Input ~ 0
 TxD
-Text GLabel 5650 9350 0    51   Output ~ 0
+Text GLabel 5650 9450 0    51   Output ~ 0
 RxD
 $Comp
 L GND #PWR026
 U 1 1 57FC5DA3
-P 5650 9650
-F 0 "#PWR026" H 5650 9650 30  0001 C CNN
-F 1 "GND" H 5650 9580 30  0001 C CNN
-F 2 "" H 5650 9650 60  0000 C CNN
-F 3 "" H 5650 9650 60  0000 C CNN
-	1    5650 9650
+P 5350 9750
+F 0 "#PWR026" H 5350 9750 30  0001 C CNN
+F 1 "GND" H 5350 9680 30  0001 C CNN
+F 2 "" H 5350 9750 60  0000 C CNN
+F 3 "" H 5350 9750 60  0000 C CNN
+	1    5350 9750
 	1    0    0    -1  
 $EndComp
 Text Notes 5400 8600 0    197  ~ 39
@@ -1621,14 +1621,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 8450 10550 8450
 Connection ~ 10450 8450
-Wire Wire Line
-	5650 9350 5850 9350
-Wire Wire Line
-	5650 9450 5850 9450
-Wire Wire Line
-	5850 9550 5650 9550
-Wire Wire Line
-	5650 9550 5650 9650
 Wire Notes Line
 	700  750  8750 750 
 Wire Notes Line
@@ -1881,4 +1873,12 @@ F 3 "" H 4150 9250 60  0000 C CNN
 	1    4150 9250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5850 9550 5650 9550
+Wire Wire Line
+	5650 9450 5850 9450
+Wire Wire Line
+	5850 9350 5350 9350
+Wire Wire Line
+	5350 9350 5350 9750
 $EndSCHEMATC

@@ -1,0 +1,18 @@
+Drill report for /home/mike/Workspace/KiCad/led_cube_3x3x3/led_cube_3x3x3_v1.kicad_pcb
+Created on śro, 2 lis 2016, 23:07:23
+Drill report for plated through holes :
+T1  0,64mm  0,025"  (13 holes)
+T2  0,80mm  0,031"  (19 holes)
+T3  0,81mm  0,032"  (37 holes)
+T4  1,00mm  0,039"  (3 holes)
+T5  1,02mm  0,040"  (11 holes)
+T6  1,32mm  0,052"  (2 holes)
+
+Total plated holes count 85
+
+
+Drill report for unplated through holes :
+
+Total unplated holes count 0
+
+
